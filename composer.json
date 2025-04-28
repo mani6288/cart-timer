@@ -1,0 +1,25 @@
+{
+  "name": "abd/cart-timer",
+  "description": "Magento 2 Cart Timer (Urgency Plugin) by Abd.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "MIT"
+  ],
+  "authors": [
+    {
+      "name": "Abd",
+      "email": "your-email@example.com",
+      "homepage": "https://github.com/your-profile",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Abd\\\\CartTimer\\\\": ""
+    }
+  }
+}
